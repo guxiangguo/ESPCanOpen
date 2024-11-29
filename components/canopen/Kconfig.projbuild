@@ -1,0 +1,8 @@
+menu "CanOpen Configuration"
+    config NodeID
+        int "CanOpen NodeId"
+        default 1
+        range 0 127
+        help
+            The nodeId of canopen device.
+endmenu
